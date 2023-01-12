@@ -1,0 +1,11 @@
+class FirstNonConsecutive {
+    static Integer find(final int[] array) {
+    int count = array[0];
+
+        for (int i = 0; i < array.length; i++) {
+            if (count != array[i]) return array[i];
+            count++;
+        }
+        return null;
+    }
+}

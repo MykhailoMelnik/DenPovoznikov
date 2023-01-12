@@ -6,6 +6,6 @@ public class Positive {
     //  Note: if there is nothing to sum, the sum is default to 0.
     public static int sum(int[] arr) {
 
-        return ;
+        return 0;
     }
 }
